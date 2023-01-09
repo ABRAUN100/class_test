@@ -1,0 +1,29 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#app{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.app-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-container {
+  background-color: #ffffff;
+  width: 450px;
+  height: 700px;
+  border: 1px solid #f1f1f1f1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
